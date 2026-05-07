@@ -31,6 +31,7 @@
 /vendor/etc/audio_platform_info\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/audio_platform_info_diff\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/audio_platform_info_intcodec\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/audio_tuning_mixer_tavil\.txt u:object_r:vendor_configs_file:s0
 /vendor/etc/configstore u:object_r:vendor_configs_file:s0
 /vendor/etc/configstore/vpp\.configstore\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/dolby u:object_r:vendor_configs_file:s0
@@ -65,6 +66,12 @@
 /vendor/etc/media_profiles\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/media_profiles_V1_0\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/mixer_paths_idp\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/mixer_paths_qrd\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/mixer_paths_tavil\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/mixer_paths_wcd9375qrd\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/mixer_paths_wcd9375\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/mixer_usb_default\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/mixer_usb_gray\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/msm_irqbalance\.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/powerhint\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM07_FHD\.xml u:object_r:vendor_configs_file:s0
@@ -112,6 +119,10 @@
 /vendor/etc/sensors/config/stk3a9x_0\.json u:object_r:vendor_configs_file:s0
 /vendor/etc/sensors/hals\.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/sensors/sns_reg_config u:object_r:vendor_configs_file:s0
+/vendor/etc/SoundBoosterParam\.txt u:object_r:vendor_configs_file:s0
+/vendor/etc/sound_trigger_mixer_paths\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/sound_trigger_mixer_paths_qrd\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/sound_trigger_mixer_paths_wcd9340\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/system_properties\.xml u:object_r:vendor_configs_file:s0
 /vendor/firmware u:object_r:vendor_firmware_file:s0
 /vendor/firmware/CAMERA_ICP\.elf u:object_r:vendor_firmware_file:s0
