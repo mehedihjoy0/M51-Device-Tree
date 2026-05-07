@@ -41,10 +41,6 @@
 /vendor/etc/fstab\.ramplus u:object_r:vendor_configs_file:s0
 /vendor/etc/gnss_antenna_info\.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/gps\.conf u:object_r:vendor_configs_file:s0
-/vendor/etc/hyper u:object_r:vendor_configs_file:s0
-/vendor/etc/hyper/config_chipset\.json u:object_r:vendor_configs_file:s0
-/vendor/etc/hyper/config_hyper_permission\.json u:object_r:vendor_configs_file:s0
-/vendor/etc/hyper/config_vendor\.json u:object_r:vendor_configs_file:s0
 /vendor/etc/init u:object_r:vendor_configs_file:s0
 /vendor/etc/init/android\.hardware\.drm@1\.3-service\.clearkey\.rc u:object_r:vendor_configs_file:s0
 /vendor/etc/init/android\.hardware\.drm@1\.3-service\.widevine\.rc u:object_r:vendor_configs_file:s0
@@ -70,11 +66,6 @@
 /vendor/etc/media_profiles_V1_0\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/mixer_paths_idp\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/msm_irqbalance\.conf u:object_r:vendor_configs_file:s0
-/vendor/etc/perf u:object_r:vendor_configs_file:s0
-/vendor/etc/perf/perfboostsconfig\.xml u:object_r:vendor_configs_file:s0
-/vendor/etc/perf/perfconfigstore\.xml u:object_r:vendor_configs_file:s0
-/vendor/etc/perf/targetconfig\.xml u:object_r:vendor_configs_file:s0
-/vendor/etc/perf/targetresourceconfigs\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/powerhint\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM07_FHD\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83106_FHD\.xml u:object_r:vendor_configs_file:s0
@@ -121,7 +112,6 @@
 /vendor/etc/sensors/config/stk3a9x_0\.json u:object_r:vendor_configs_file:s0
 /vendor/etc/sensors/hals\.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/sensors/sns_reg_config u:object_r:vendor_configs_file:s0
-/vendor/etc/SoundBoosterParam\.txt u:object_r:vendor_configs_file:s0
 /vendor/etc/system_properties\.xml u:object_r:vendor_configs_file:s0
 /vendor/firmware u:object_r:vendor_firmware_file:s0
 /vendor/firmware/CAMERA_ICP\.elf u:object_r:vendor_firmware_file:s0
@@ -282,13 +272,10 @@
 /vendor/lib/libtzdrmgenprov\.so u:object_r:vendor_file:s0
 /vendor/lib/libuniplugin\.so u:object_r:vendor_file:s0
 /vendor/lib/libwvhidl\.so u:object_r:vendor_file:s0
-/vendor/lib/lib_SoundBooster_ver1000\.so u:object_r:vendor_file:s0
 /vendor/lib/mediadrm u:object_r:vendor_file:s0
 /vendor/lib/mediadrm/libwvdrmengine\.so u:object_r:vendor_file:s0
 /vendor/lib/sensors\.grip\.so u:object_r:vendor_file:s0
 /vendor/lib/sensors\.ssc\.so u:object_r:vendor_file:s0
-/vendor/lib/soundfx u:object_r:vendor_file:s0
-/vendor/lib/soundfx/libsamsungSoundbooster_plus\.so u:object_r:vendor_file:s0
 /vendor/lib/vendor\.qti\.gnss@1\.0\.so u:object_r:vendor_file:s0
 /vendor/lib/vendor\.qti\.gnss@1\.1\.so u:object_r:vendor_file:s0
 /vendor/lib/vendor\.qti\.gnss@1\.2\.so u:object_r:vendor_file:s0
@@ -453,11 +440,8 @@
 /vendor/lib64/libsynaFpSensorTestNwd\.so u:object_r:vendor_file:s0
 /vendor/lib64/libtzdrmgenprov\.so u:object_r:vendor_file:s0
 /vendor/lib64/libuniplugin\.so u:object_r:vendor_file:s0
-/vendor/lib64/lib_SoundBooster_ver1000\.so u:object_r:vendor_file:s0
 /vendor/lib64/sensors\.grip\.so u:object_r:vendor_file:s0
 /vendor/lib64/sensors\.ssc\.so u:object_r:vendor_file:s0
-/vendor/lib64/soundfx u:object_r:vendor_file:s0
-/vendor/lib64/soundfx/libsamsungSoundbooster_plus\.so u:object_r:vendor_file:s0
 /vendor/lib64/vendor\.qti\.gnss@1\.0\.so u:object_r:vendor_file:s0
 /vendor/lib64/vendor\.qti\.gnss@1\.1\.so u:object_r:vendor_file:s0
 /vendor/lib64/vendor\.qti\.gnss@1\.2\.so u:object_r:vendor_file:s0
