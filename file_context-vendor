@@ -451,6 +451,8 @@
 /vendor/lib64/libsynaFpSensorTestNwd\.so u:object_r:vendor_file:s0
 /vendor/lib64/libtzdrmgenprov\.so u:object_r:vendor_file:s0
 /vendor/lib64/libuniplugin\.so u:object_r:vendor_file:s0
+/vendor/lib64/libvkmanager_vendor\.so u:object_r:vendor_file:s0
+/vendor/lib64/libvkservice\.so u:object_r:vendor_file:s0
 /vendor/lib64/sensors\.grip\.so u:object_r:vendor_file:s0
 /vendor/lib64/sensors\.ssc\.so u:object_r:vendor_file:s0
 /vendor/lib64/vendor\.qti\.gnss@1\.0\.so u:object_r:vendor_file:s0
