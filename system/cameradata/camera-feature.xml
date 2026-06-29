@@ -138,8 +138,6 @@
     <local name="SUPPORT_VIDEO_HDR" value="false"/>
     <local name="SUPPORT_HDR10_PLUS_RECORDING" value="false"/>
     <local name="SUPPORT_3HDR_RECORDING" value="true"/>
-    <local name="LIMITATION_FHD_60FPS_RECORDING_DURING_SMARTVIEW" value="true" />
-    <local name="LIMITATION_UHD_RECORDING_DURING_SMARTVIEW" value="true" />
 
     <!-- VDIS+Tracking AF -->
     <local name="SUPPORT_SUPER_VIDEO_STABILIZATION" value="true" />
@@ -177,10 +175,8 @@
     <!-- Super Slow Motion features -->
     <local name="SUPPORT_SUPER_SLOW_MOTION_AUTO_DETECTION" value="false"/>
     <local name="SUPER_SLOW_MOTION_MAX_FRC_TIME" value="400"/>
-    <local name="LIMITATION_SUPER_SLOWMOTION_DURING_SMARTVIEW" value="true" />
 
     <!-- Slow Motion features -->
-    <local name="LIMITATION_SLOWMOTION_DURING_SMARTVIEW" value="true" />
 
     <!-- Hyperlapse features -->
     <local name="SUPPORT_HYPER_LAPSE_NIGHT" value="true" />
@@ -208,7 +204,6 @@
     <!-- Special Features -->
     <local name="SUPPORT_TAP_AND_HOLD_CAMERA_BUTTON" value="true" />
     <local name="CAMERA_QUICK_LAUNCH_USING_POWER_KEY" value="true"/>
-    <local name="SUPPORT_LIVE_BLUR" value="true"/>
 
     <!-- Special Features - Camera Settings -->
     <local name="SUPPORT_HEIF_FORMAT" value="true"/>
